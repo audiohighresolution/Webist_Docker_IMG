@@ -1,4 +1,4 @@
-FROM mcomm:aio/website
+FROM mcomm/aio:website
 WORKDIR /usr/src/app
 RUN chmod 777 /usr/src/app
 COPY . .
